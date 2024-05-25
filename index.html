@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Graph Visual</title>
+  </head>
+  <body>
+    <h1>GRAPH</h1>
+
+    <svg id="graph" width="800" height="400">
+      <line id="edgeA" x1="50" y1="50" x2="150" y2="50" />
+      <line id="edgeB" x1="150" y1="50" x2="150" y2="150" />
+      <line id="edgeC" x1="150" y1="150" x2="50" y2="150" />
+      <line id="edgeD" x1="50" y1="150" x2="50" y2="50" />
+      
+      <circle id="node1" cx="50" cy="50" r="30" />
+      <circle id="node2" cx="150" cy="50" r="30" />
+      <circle id="node3" cx="150" cy="150" r="30" />
+      <circle id="node4" cx="50" cy="150" r="30" />
+    </svg>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
